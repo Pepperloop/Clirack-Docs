@@ -65,3 +65,39 @@ Send the secret key to Clirack
 
 ### Adding webchat to telegram group manually
 ![Add ClriackBot to a group](/assets/img/webchat/wb_add_telegram_5.png)
+
+## Customization the webchat
+![Customization of the Webchat](/assets/img/webchat/wb_customization.jpg)
+```
+<html>
+
+<body>
+
+    <script id="ClirackWebchat" 
+    webchat-identification-key="USE_YOUR_IDENTIFICATION_KEY-####"
+    webchat-tittle="THE_NAME_OF_THE_WEBCHAT"
+    webchat-theme-color="#009de7"
+    webchat-font-color="#ffffff"
+    webchat-background-color="#ffffff"
+    webchat-font-color-names="#50565d"
+    webchat-font-color-reciber="#ffffff"
+    webchat-font-color-sender="#50565d"
+    webchat-background-reciber="#009de7"
+    webchat-background-sender="#e6ecf0"
+    webchat-open-chat='from {bottom: -450px;} to {bottom: 0px;}'
+    webchat-close-chat='from {bottom: 0px;} to {bottom: -450px;}'
+    webchat-open-toggle='from {right: -75px;} to {right: 0px;}'
+    webchat-close-toggle='from {right: 0px;} to {right: -75px;}'
+    webchat-animation-velocity="1s"
+    webchat-ask-name="What is your name?"
+    webchat-ask-name-error="You can help me with your name?"
+    webchat-ask-email="What is your mail?"
+    webchat-ask-email-error="You can help me with your mail?"
+
+    src="https://clirack.pepperloop.com/plugin/webchat-1/index.js"
+    ></script>
+
+</body>
+</html>
+```
+
